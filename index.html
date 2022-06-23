@@ -1,5 +1,64 @@
-<html>
-<body>
-<h1>Stößer IT Solutions</h1>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Stößer IT Solutions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <div class="navbar">
+            <nav class="primary large">
+                <a id="menu-button" class="item button hide-medium hide-large" href="javascript:void(0);" onclick="document.getElementById('navSmall').classList.toggle('hide')" title="Toggle Navigation Menu"><span class="material-symbols-outlined">menu</span></a>
+                <a href="#" class="item active">Home</a>
+                <a href="#contact" class="item hide-small">Contact</a>
+            </nav>
+            <nav id="navSmall" class="large hide hide-large hide-medium ">
+                <a href="#contact" class="item active">Contact</a>
+            </nav>
+        </div>
+
+        <header class="primary">
+            <h1 class="title">Stößer IT Solutions</h1>
+            <p class="subtitle">fast high-quality software solutions</p>
+            <a id="contact-button" class="large" href="#contact">Get in Contact</a>
+        </header>
+
+        <section>
+            <span class="material-symbols-outlined big">keyboard</span>
+            <div>
+                <h1>Programmierung</h1>
+                <h2>Wir erschaffen Software-Lösungen in den Bereichen Frontend / Backend / Web / Desktop / Android im Java-Umfeld</h2>
+                <p class="text-alt">Durch tiefgreifende und vielfältige Berufserfahrung ueber Jahrzehnte hinweg und ständigem Arbeiten mit
+                    "state of the art"-Techniken erreichen wir effiziente, ressourcensparende und kundenorientierte Software-Lösungen.</p>
+            </div>
+        </section>
+
+        <section class="alternative">
+            <span class="material-symbols-outlined big">psychology</span>
+            <div>
+                <h1>Beratung</h1>
+                <h2>Falls Sie Hilfe beim Entwerfen, Designen oder Entscheiden von Software-Lösungen benoetigen, stehen wir ebenfalls gerne beratend zur Seite.</h2>
+                <p class="text-alt">In unseren Erfahrungsschatz fallen ebenfalls die Konzepetion und Architektur von stabiler und cleverer Software,
+                    die weit über die reine Entwicklung hinaus geht. Weiterhin werden wir auch beratend tätig, um bereits bestehende Produkte zu beurteilen und ggf.
+                    neu zu entwerfen oder umzugstalten.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <span class="material-symbols-outlined big">alternate_email</span>
+            <div>
+                <h1>Kontakt</h1>
+                <h2>Kontaktieren sie uns einfach per Mail oder Telefon.</h2>
+                <p class="text-alt">Beschreiben Sie kurz um was es geht und wir setzen uns umgehend mit Ihnen in Verbindung.</p>
+            </div>
+        </section>
+
+        <footer>
+            <a href="/impressum.html">Impressum</a>
+        </footer>
+    </body>
 </html>
