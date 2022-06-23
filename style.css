@@ -1,6 +1,8 @@
 :root {
-    --primary: #f44336;
+    --primary: #00838f;
     --on-primary: #fff;
+    --secondary: black;
+    --on-secondary: white;
     --menu-active: white;
     --on-menu-active: black;
     --menu-secondary: lightgrey;
@@ -23,7 +25,7 @@ nav, h1, button {font-family: "Montserrat", sans-serif; }
 header { padding:8rem 1rem; text-align: center; }
 .title { font-size: 4rem;}
 .subtitle { font-size: 1.5rem;}
-#contact-button { font-family: "Montserrat", sans-serif;  background-color: black; color: white; padding: 0.75rem 1.5rem; }
+.contact-button { font-family: "Montserrat", sans-serif;  background-color: var(--secondary); color: var(--on-secondary); padding: 0.75rem 1.5rem; }
 
 /* header & navbar */
 .primary { color: var(--on-primary); background-color: var(--primary);}
@@ -61,7 +63,7 @@ section.third { background-color: #000; color: white; }
 #data-privacy h3 { font-size: 1.25rem; }
 
 /* footer */
-footer { background-color: black; color: white; text-align: center; font-size: 1rem; padding: 2rem; }
+footer { background-color: var(--secondary); color: var(--on-secondary); text-align: center; font-size: 1rem; padding: 2rem; }
 
 @media (max-width: 600px) {
     section { display: block; }
@@ -69,7 +71,7 @@ footer { background-color: black; color: white; text-align: center; font-size: 1
     .material-symbols-outlined.big {font-size:5rem; float: right; }
     .hide-small { display: none!important; }
     #navSmall .item { display: inline-block; width: 100%; }
-    #navSmall { background-color: white; }
+    #navSmall { background-color: var(--menu-active); }
 }
 @media (min-width: 601px) and (max-width: 992px) {
     .hide-medium { display: none!important; }
