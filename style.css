@@ -40,7 +40,7 @@ nav, h1, button {font-family: "Montserrat", sans-serif; }
 /* header */
 header { padding:8rem 1rem; text-align: center; }
 .title { font-size: 4rem;}
-.subtitle { font-size: 1.5rem;}
+.subtitle { font-size: 1.5rem; margin: 1.5rem; }
 .contact-button { font-family: "Montserrat", sans-serif;  background-color: var(--secondary); color: var(--on-secondary); padding: 0.75rem 1.5rem; }
 
 /* header & navbar */
